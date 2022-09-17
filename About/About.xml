@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla Weapons Expanded - Tribal</name>
+  <author>Oskar Potocki</author>
+  <supportedVersions>
+    <li>1.2</li>
+	<li>1.3</li>
+  </supportedVersions>
+  <packageId>VanillaExpanded.VWETB</packageId>
+  <description>Vanilla Weapons Expanded - Tribal is a new entry to Vanilla Weapons Expanded series aimed at introducing some new weapons New Tribe playing players can utilise for better defense capabilities. From light and heavy clubs, stone axes and throwing shards to slings and clay pots filled with chemfuel, tribal raids should become significantly more diverse now.
+
+Vanilla Weapons Expanded is part of a series of mods expanding on everyday life on the Rimworld. When paired together with a brand new Vanilla Apparel Expanded and Vanilla Armours Expanded, you can bring something to your game that will keep you interested in it for days. 
+</description>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
+</ModMetaData>
