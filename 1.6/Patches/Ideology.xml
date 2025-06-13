@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- Anything that herit from BaseMakeableGrenade already have Ranged class -->
+        <!-- Anything that herit from BaseMeleeWeapon_Blunt_Quality already have MeleeBlunt class -->
+        <!-- Anything that herit from BaseMeleeWeapon_Sharp_Quality already have MeleePiercer class -->
+        <!-- Anything that herit from BaseWeaponNeolithic already have Neolithic class -->
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VWE_Throwing_Shards" or defName="VWE_Sling"]</xpath>
+          <value>
+            <weaponClasses>
+              <li>RangedLight</li>
+              <li>ShortShots</li>
+            </weaponClasses>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

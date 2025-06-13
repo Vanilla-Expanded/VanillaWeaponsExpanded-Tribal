@@ -14,6 +14,9 @@
     <weaponTags>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
     <costStuffCount>70</costStuffCount>
     <statBases>
       <WorkToMake>1800</WorkToMake>
@@ -64,6 +67,9 @@
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
     <costStuffCount>25</costStuffCount>
     <statBases>
       <WorkToMake>900</WorkToMake>
@@ -115,6 +121,9 @@
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>1600</WorkToMake>
       <Mass>0.85</Mass>
@@ -165,6 +174,9 @@
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
     <costStuffCount>20</costStuffCount>
     <statBases>
       <WorkToMake>900</WorkToMake>
@@ -191,7 +203,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>12</power>
+        <power>8</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
